@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class PositivoNegativo {
     static void main(String[] args) {
-        int num = -1;
+        int num;
+        Scanner sc = new Scanner(System.in);
+
+        num = sc.nextInt();
 
         if (num > 0) {
             System.out.println("Número Positivo");

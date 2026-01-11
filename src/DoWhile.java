@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class doWhile {
+public class DoWhile {
     static void main(String[] args) {
 
         int soma = 0;
